@@ -27,7 +27,9 @@
 
     <link rel="stylesheet" href="assets/css/style.css" />
   </head>
-  <body>
+
+  <!--classes on body set to work with mt-auto on footer to ensure it always stays at the bottom of the page-->
+  <body class="d-flex flex-column min-vh-100">
     <!--Navigation-->
         <div>Navigation</div>
 
@@ -46,18 +48,27 @@
         <section class="container">
             <div class="row">
                 <div class="col-12">Services Section heading</div>
-                <col-12 class="col-12 col-md-6 col-xl-3">Services card</col-12>
-                <col-12 class="col-12 col-md-6 col-xl-3">Services card</col-12>
-                <col-12 class="col-12 col-md-6 col-xl-3">Services card</col-12>
-                <col-12 class="col-12 col-md-6 col-xl-3">Services card</col-12>
+                <div class="col-12 col-md-6 col-xl-3">Services card</div>
+                <div class="col-12 col-md-6 col-xl-3">Services card</div>
+                <div class="col-12 col-md-6 col-xl-3">Services card</div>
+                <div class="col-12 col-md-6 col-xl-3">Services card</div>
             </div>
         </section>
 
     </main>
 
     <!--Footer / contact section-->
-    <footer>
-        
+    <!-- mt-auto added to push footer to the bottom of the page-->
+    <footer class="mt-auto">
+        <div class="container">
+            <div class="row justify-content-center">
+                <div class="col-12">Contact section heading</div>
+                <!--contact info-->
+                <div class="col-12 col-md-6 col-xl-4">Contact info and social links</div>
+                <!--opening times-->
+                <div class="col-12 col-md-6 col-xl-4">Opening times</div>
+            </div>
+        </div>
     </footer>
 
     <!--bootstrap js code-->
