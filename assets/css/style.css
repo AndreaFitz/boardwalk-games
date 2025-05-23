@@ -83,10 +83,37 @@
 }
 */
 
+/*media queries*/
 
+/*medium devices (tablets 768px and up) */
 
-
-
+@media screen and (min-width: 768px) {
+    /*make all sevice cards the same height for consistency*/
+    #services .card-body{
+        min-height: 191px;
+    }
+}
+/*large devices (small laptops, 992px and up) */
+@media screen and (min-width: 992px) {
+    /*make all sevice cards the same height for consistency*/
+    #services .card-body{
+        min-height: 220px;
+    }
+}
+/*Xlarge devices (laptops, 1200px and up) */
+@media screen and (min-width: 1200px) {
+    /*make all sevice cards the same height for consistency*/
+    #services .card-body{
+        min-height: 195px;
+    }
+}
+/*XXlarge devices (xl screens, 1400px and up) */
+@media screen and (min-width: 1400px) {
+    /*make all sevice cards the same height for consistency*/
+    #services .card-body{
+        min-height: auto;
+    }
+}
 
 
 
